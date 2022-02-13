@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-family: 'Georama', sans-serif;
+}
+body{
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #e4e6e5 100%);
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.logo img {
+    width: 200px;
+    /* height: 140px; */
+    max-width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+
+}
+
+#couple {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+#couple img {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#caption {
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.quotes {
+    /* border:2px solid green; */
+    /* width: 500px; */
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #FFBBBB;
+    /* word-wrap: break-word;
+    overflow-wrap: break-word; */
+    font-weight: 700;
+}
+
+lottie-player {
+    margin: 0 auto;
+}
+
+#animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#animation p {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link a{
+    text-decoration: none;
+    color: rgb(252, 19, 19);
+    cursor: pointer;
+}
+#content{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 20px;
+padding: 10px;
+font-weight: 700;
+}
+
+#content img{
+   width: 500px;
+   height: 500px;
+}
+
+.quotes p{
+    font-family: 'Georama', sans-serif;
+}
